@@ -41,7 +41,7 @@ header{
 
 header .header-container,section,projects-container{
     margin: 0 auto;
-    max-width: 1224px;
+    max-width: 1024px;
     width: 100%;
 }
 
@@ -78,17 +78,11 @@ header .header-content .right-header .icons li {
     justify-content: center;
     align-items: center;
 }
-/* 
-hr{
-    background-color: red;
-    color: red;
-} */
+
 /* header section completed */
 
 
-
 /* About me started */
-
 .about-container,.about2,.key-skills{
     padding: 12px;
 }
@@ -156,8 +150,6 @@ justify-content: center;
 background-color: rgb(75, 206, 36);
 }
 
-
-
 p{
     text-align: justify;
     font-family: 'Times New Roman';
@@ -185,10 +177,6 @@ p{
 .btn :hover{
     color: white;
 }
-
-
-
-
 
 
 @media (min-width:620px){
