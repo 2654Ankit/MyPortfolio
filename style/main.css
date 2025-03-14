@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color:rgb(8, 35, 68) ;
+    color: rgb(220, 223, 225);
+    width: 100%;
+    font-size: 14px;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+a{
+    color: rgb(220, 223, 225);
+    text-decoration: none;
+
+}
+
+ul li  :hover{
+    /* font-size: 16px; */
+    color: rgb(31, 127, 206);
+}
+
+
+header{
+    margin: 0px;
+    padding: 0px;
+    background:url("../public/stars.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+header .header-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+header .header-content .right-header .icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+hr{
+    background-color: red;
+    color: red;
+} */
+/* header section completed */
+
+
+
+/* About me started */
+
+.about-container{
+    padding: 12px;
+}
+
+.about-container .my-img{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.about-container .my-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.about-me strong{
+    font-size:x-large;
+}
+
+.about-me p{
+    text-align: justify;
+}
+
+.about-me ul li{
+    text-align: justify;
+}
+
+.key-skills strong{
+    padding: 12px;
+}
+
+.key-skills ul li{
+    margin-left: 32px;
+    text-align: justify;
+    
+
+}
+
+
+
+
+/* resume section start */
+.resume{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resume img{
+    width: 50%;
+    /* height: 30%; */
+}
+
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 3px;
+    color: rgb(8, 79, 141);
+    font-size: 16px;
+}
+.btn  :hover{
+background-color: rgb(75, 206, 36);
+}
+
+
+
+
+
+
+@media (min-width:620px){
+    header .header-content{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 5px;
+    
+    
+    }
+
+    .about-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .about-container .my-img img{
+        width: 270px;
+        height: 270px;
+        border-radius: 0%;
+        border-radius: 6px;
+    }
+
+}
+
+
+@media (min-width:720px){
+    header .header-content{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 5px;
+    
+    
+    }
+
+    .about-container{
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+    .about-container .my-img img{
+        width: 200px;
+        height: 200px;
+        border-radius: 0%;
+        border-radius: 6px;
+    }
+
+}
+
+

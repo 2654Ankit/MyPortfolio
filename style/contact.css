@@ -1,0 +1,36 @@
+.contacts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts h2{
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contacts .social a img{
+    margin: 20px;
+
+}
+
+
+.mob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 30px;
+}
