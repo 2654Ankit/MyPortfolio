@@ -39,12 +39,19 @@ header{
     height: 120px;
 }
 
-header .header-container,section,projects-container{
+header .header-container,section{
     margin: 0 auto;
     max-width: 1124px;
     width: 100%;
 }
 
+.projects-container{
+    margin: 0 auto;
+    max-width: 824px;
+    /* width: 100%; */
+
+
+}
 
 
 header .header-content{
@@ -83,41 +90,56 @@ header .header-content .right-header .icons li {
 
 
 /* About me started */
-.about-container,.about2,.key-skills{
-    padding: 12px;
+.about-sections{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
 }
 
 .about-container .my-img{
-display: flex;
-align-items: center;
-justify-content: center;
+    margin-top: 10px;
 }
 
 .about-container .my-img img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-.about-me strong{
-    font-size:x-large;
+border-radius: 5px;
+width: 100px;
+margin-bottom: 15px;
 }
 
-.about-me p{
-    text-align: justify;
-}
-
-.about-me ul li{
-    text-align: justify;
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 
-
-.key-skills ul li{
-    margin-left: 32px;
-    text-align: justify;
-    
-
+.about1 .about-me{
+    /* margin: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.about2{
+    padding: 12px;
+}
+
+
+
+.key-skills{
+    padding: 12px;
+}
+
+.key-skills ul{
+    padding: 12px;
+    margin-left: 12px;
+}
+
+
 
 
 
@@ -189,20 +211,13 @@ p{
         font-size: 14px;
 
     }
-    .about2,.key-skills{
-        padding: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
-    
-    }
+ 
 
     .key-skills ul li{
         font-size: 20px;
     }
     
-    .key-skills strong{
-        padding: 12px;
-    }
+   
     body{
         background-color:rgb(8, 35, 68) ;
         color: rgb(220, 223, 225);
@@ -222,17 +237,50 @@ p{
     .icons li a{
         font-size: 20px;
     }
+ 
 
-    .about-container{
+    .about1 .about-container{
+
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 60%;
+    }
+    .about-container .my-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+
     }
     .about-container .my-img img{
         width: 270px;
         height: 270px;
-        border-radius: 0%;
         border-radius: 6px;
     }
+
+    .about1 .about-me{
+        /* margin: 0px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 36px;
+        margin-top: -5px;
+    }
+    .key-skills{
+        margin-top: -55px;
+        display: flex;
+        flex-direction: column;
+        padding: 36px;
+    }
+
+   
 
 }
 
